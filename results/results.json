@@ -1,0 +1,249 @@
+{
+  "validation": {
+    "customers": 9134,
+    "duplicate_ids": 0,
+    "missing_values": 0,
+    "negative_values": 0,
+    "zero_income": 2317,
+    "zero_income_unemployed_share": 1.0,
+    "near_duplicate_rows": 1093,
+    "near_duplicate_clusters": 221,
+    "near_duplicate_share": 0.11966279833588789,
+    "response_rate_before_dedup": 0.14320122618786948,
+    "copies_that_are_responders": 0.9972552607502287,
+    "responders_before_dedup": 1308,
+    "unique_customers": 8041
+  },
+  "overall": {
+    "response_rate": 0.027111055838826018,
+    "responders": 218,
+    "median_clv": 5809.261551,
+    "avg_monthly_premium": 93.08120880487502
+  },
+  "by_channel": [
+    {
+      "Sales Channel": "Agent",
+      "rate": 0.038,
+      "customers": 2921,
+      "responders": 111
+    },
+    {
+      "Sales Channel": "Web",
+      "rate": 0.0218,
+      "customers": 1195,
+      "responders": 26
+    },
+    {
+      "Sales Channel": "Branch",
+      "rate": 0.0211,
+      "customers": 2320,
+      "responders": 49
+    },
+    {
+      "Sales Channel": "Call Center",
+      "rate": 0.0199,
+      "customers": 1605,
+      "responders": 32
+    }
+  ],
+  "by_offer": [
+    {
+      "Renew Offer Type": "Offer2",
+      "rate": 0.0484,
+      "customers": 2356,
+      "responders": 114
+    },
+    {
+      "Renew Offer Type": "Offer1",
+      "rate": 0.0304,
+      "customers": 3257,
+      "responders": 99
+    },
+    {
+      "Renew Offer Type": "Offer3",
+      "rate": 0.0036,
+      "customers": 1404,
+      "responders": 5
+    },
+    {
+      "Renew Offer Type": "Offer4",
+      "rate": 0.0,
+      "customers": 1024,
+      "responders": 0
+    }
+  ],
+  "by_employment": [
+    {
+      "EmploymentStatus": "Retired",
+      "rate": 0.3036,
+      "customers": 112,
+      "responders": 34
+    },
+    {
+      "EmploymentStatus": "Medical Leave",
+      "rate": 0.0354,
+      "customers": 367,
+      "responders": 13
+    },
+    {
+      "EmploymentStatus": "Disabled",
+      "rate": 0.0348,
+      "customers": 345,
+      "responders": 12
+    },
+    {
+      "EmploymentStatus": "Employed",
+      "rate": 0.0249,
+      "customers": 5068,
+      "responders": 126
+    },
+    {
+      "EmploymentStatus": "Unemployed",
+      "rate": 0.0154,
+      "customers": 2149,
+      "responders": 33
+    }
+  ],
+  "by_marital": [
+    {
+      "Marital Status": "Divorced",
+      "rate": 0.0491,
+      "customers": 1099,
+      "responders": 54
+    },
+    {
+      "Marital Status": "Married",
+      "rate": 0.0246,
+      "customers": 4718,
+      "responders": 116
+    },
+    {
+      "Marital Status": "Single",
+      "rate": 0.0216,
+      "customers": 2224,
+      "responders": 48
+    }
+  ],
+  "by_location": [
+    {
+      "Location Code": "Suburban",
+      "rate": 0.034,
+      "customers": 4936,
+      "responders": 168
+    },
+    {
+      "Location Code": "Rural",
+      "rate": 0.0165,
+      "customers": 1638,
+      "responders": 27
+    },
+    {
+      "Location Code": "Urban",
+      "rate": 0.0157,
+      "customers": 1467,
+      "responders": 23
+    }
+  ],
+  "channel_gap": {
+    "agent": 0.038000684697021565,
+    "best_other": 0.021757322175732216,
+    "worst": 0.019937694704049845,
+    "agent_vs_rest": 1.8183505200817798,
+    "agent_share_of_customers": 0.36326327571197614,
+    "agent_share_of_responders": 0.5091743119266054
+  },
+  "offer_waste": {
+    "weak_offers": [
+      "Offer3",
+      "Offer4"
+    ],
+    "customers_on_weak_offers": 2428,
+    "share_of_offers_sent": 0.3019524934709613,
+    "responders_on_weak_offers": 5,
+    "best_offer": "Offer2",
+    "best_offer_rate": 0.04838709677419355,
+    "what_if_extra_responders": 112.48387096774194,
+    "what_if_response_rate": 0.04109984715430195
+  },
+  "offer_by_channel": {
+    "Agent": {
+      "Offer1": 0.0397,
+      "Offer2": 0.0724,
+      "Offer3": 0.006,
+      "Offer4": 0.0
+    },
+    "Branch": {
+      "Offer1": 0.0292,
+      "Offer2": 0.0307,
+      "Offer3": 0.0,
+      "Offer4": 0.0
+    },
+    "Call Center": {
+      "Offer1": 0.0127,
+      "Offer2": 0.0479,
+      "Offer3": 0.0,
+      "Offer4": 0.0
+    },
+    "Web": {
+      "Offer1": 0.0239,
+      "Offer2": 0.037,
+      "Offer3": 0.0091,
+      "Offer4": 0.0
+    }
+  },
+  "value": {
+    "top20_share_of_clv": 0.4640222147571336,
+    "median_clv_by_policies": {
+      "1": 3125.60286,
+      "2": 12840.43291,
+      "3": 6320.6487105,
+      "4": 6274.714250999999,
+      "5": 6064.343994,
+      "6": 6308.922374,
+      "7": 6410.967544,
+      "8": 6179.699689,
+      "9": 6137.2590365
+    },
+    "one_policy_share": 0.35045392364133815,
+    "two_vs_one_policy_clv": 4.108146007391355
+  },
+  "propensity": {
+    "auc": 0.7407133986234428,
+    "top20_capture": 0.5,
+    "top20_response": 0.06778606965174129,
+    "lift": 2.5003109452736316,
+    "note": "5-fold cross-validated; offer type and channel are inputs, so scores reflect the offer each customer got"
+  },
+  "playbook": [
+    {
+      "EmploymentStatus": "Retired",
+      "Renew Offer Type": "Offer1",
+      "rate": 0.4182,
+      "n": 55
+    },
+    {
+      "EmploymentStatus": "Medical Leave",
+      "Renew Offer Type": "Offer2",
+      "rate": 0.0732,
+      "n": 82
+    },
+    {
+      "EmploymentStatus": "Disabled",
+      "Renew Offer Type": "Offer1",
+      "rate": 0.05,
+      "n": 180
+    },
+    {
+      "EmploymentStatus": "Employed",
+      "Renew Offer Type": "Offer2",
+      "rate": 0.0498,
+      "n": 1687
+    },
+    {
+      "EmploymentStatus": "Unemployed",
+      "Renew Offer Type": "Offer2",
+      "rate": 0.0226,
+      "n": 486
+    }
+  ]
+}
